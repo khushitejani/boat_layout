@@ -1,0 +1,273 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+
+}
+body{
+  overflow-x: hidden;
+}
+li{
+  list-style: none;
+}
+:root{
+  --blue:rgb(235,254,254);
+}
+.bgblue{
+  background-color: var(--blue);
+}
+.top_header p{
+  font-size: 15px;
+}
+.containr{
+  width: 90%;
+}
+
+.slider_background{
+  background-color: var(--blue);
+  height: 90vh;
+  width: 100%;
+
+}
+.slider_background  img{
+ 
+  height: 87%;
+ 
+
+ 
+}
+.slider_txt{
+  width: 45%;
+  margin-top: 100px;
+  padding-left: 50px;
+}
+.slider_txt h1{
+  font-weight:300;
+  font-size: 85px;
+  letter-spacing: 8px;
+  margin-bottom: 0;
+
+}
+.slider_txt h2{
+  font-size: 90px;
+}
+
+.color-type{
+  position: relative;
+}
+.color2{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  right: 25px;
+
+}
+.color3{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: rgb(255, 46, 46);
+  position: absolute;
+  right : 35px;
+}
+.color_num{
+  position: absolute;
+  right: 2px;
+}
+/* .logo{
+  width: 50%;
+  height: 50%;
+} */
+.sld_1 img{
+  height: 50%!important;
+  width: 100%!important;
+  border-radius: 20px 20px 0 0;
+}
+.sld_1{
+  border: 1px solid rgba(146, 138, 138, 0.3);
+  border-radius: 50px;
+  position: relative;
+  
+}
+.box_bg{
+  background-color: rgba(208, 204, 204, 0.2);
+  border-radius: 20px;
+
+}
+#s1{
+  background-image: linear-gradient(#eeffff, #fff);
+}
+.red_line{
+  height: 3px;
+  width: 50px;
+  background-color: red;
+  margin-left: 100px;
+  position: absolute;
+  bottom: 5px;
+  left: 90px;
+}
+.sec_title>p{
+  font-size: 35px;
+  font-weight: 600;
+ 
+}
+.sec_title{
+  position: relative;
+  padding-left: 50px;
+}
+.yellow_div{
+  height: 30px;
+  width: 60%;
+  background-color: #FCC50B;
+  color: black;
+  text-align: center;
+  border-radius: 30px;
+ padding-top:  3px;
+ border:1px solid rgb(255, 255, 255);
+ position: absolute;
+ bottom: 130px;
+ left: 60px;
+}
+.watch_sec{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(#ffffff, #fff1d6);
+
+}
+  .main_img{
+  width: 50%;
+}
+  .main_img img{
+    height: 100%;
+    
+    /* object-fit: cover; */
+  }
+  .main_title {
+    width: 50%;
+  }
+  .main_title p{
+    font-size: 100px;
+ 
+  }
+  #s2{
+    background-image: linear-gradient(#fff1d6, #fff);
+  }
+  #s3{background-image: linear-gradient(#ffffff, #f2edff);
+  }
+  #s3 img{
+    height: 100%;
+  }
+  #s4{
+    background-image: linear-gradient(#f2edff, #ffffff);
+  }
+  #s5{
+    background-image: linear-gradient( #FFF,#dfeeeb);
+  }
+  #s6{
+    background-image: linear-gradient(#dfeeeb, #FFF);
+
+  }
+  #s7{
+    background-image: linear-gradient(#ffffff, #e6ecff);
+  }
+  #s8{
+    background-image: linear-gradient(#e6ecff,#ffffff );
+  }
+  .speaker .watch_sec{
+    height: 90vh;
+  }
+  #s7 .main_img img{
+    height: 100%!important;
+    /* margin-top: 30px; */
+    /* width: 100%; */
+  }
+  #s9{
+    background-image: linear-gradient(#ffffff, #eddfcb);
+  }
+  #s9>.main_img img{
+    height: 90%;
+    margin-top: 30px;
+    /* width: 100% !important; */
+   
+    /* object-fit: cover; */
+  }
+  .alica .watch_sec{
+    height: 70vh;
+  }
+  #s10{
+    background-image: linear-gradient(#eddfcb,#ffffff );
+
+  }
+ 
+  #s11 .main_img{
+    width: 100%;
+  }
+  #s11 .main_img{
+    height: 50%;
+    object-fit: cover;
+    margin-top:auto ;
+  }
+  #s11{
+    background-image: linear-gradient(#ffffff, #f3e5e5);
+  }
+  #s12{
+    background-image: linear-gradient(#f3e5e5,#ffffff );
+
+  }
+  .footer1{
+    background-color: #e7f0f5;
+    padding:  50px 100px;
+  }
+  .footer1 div:nth-child(1) input
+  {
+        padding: 0 200px;
+  }
+  .footer1 li{
+    padding: 5px 0;
+  }
+  .footer2>* h2{
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .footer2>* h4{
+    font-size: 12px;
+    font-weight: bolder;
+    padding-top: 15px;
+  }
+  .footer2>* li{
+    padding: 3px 0;
+    font-size: 12px;
+    padding-top: 5px;
+    color: rgba(0, 0, 0, .5);
+  }
+  .footer2{
+    background-color: #EFF4F7;
+    padding: 30px 300px 30px 100px ;
+    text-align: start;
+        
+  }
+  .responsive_footer div{
+    padding: 3px 0;
+    background-color: #EFF4F7;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .4);
+    padding: 5px 50px;
+
+  }
+  .searchbar{
+    position: relative;
+  }
+  .searchicon{
+    position: absolute;
+    top: 14px;
+    left: 410px;
+  }
+  
+ 
+ 
+  
